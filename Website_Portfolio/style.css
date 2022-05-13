@@ -521,6 +521,29 @@ h3.my-profesion
 	text-align: justify;
 	color: var(--text-black-700);
 }
+/* service*/
+.service .service-item
+{
+	margin-bottom: 30px;
+	flex: 0 0 33.33%;
+	max-width: 33.33%;
+}
+.service .service-item .service .service-item-inner
+{
+	background-color: var(--bg-black-100);
+	border: 1px solid var(--bg-black-50);
+	border-radius: 10px;
+	padding: 30px 15px;
+	text-align: center;
+	transition: all 0.35 ease;
+}
+.service .service-item .service .service-item-inner:hover
+{
+	box-shadow: 0 0 20px rgba(48, 46, 77,0.15);
+}
+
+
+
 
 
 Durée: 7h;
